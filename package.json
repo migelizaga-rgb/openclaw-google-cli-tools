@@ -15,5 +15,30 @@
     "extensions": [
       "./index.js"
     ]
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migelizaga-rgb/openclaw-google-cli-tools.git"
+  },
+  "homepage": "https://github.com/migelizaga-rgb/openclaw-google-cli-tools#readme",
+  "bugs": {
+    "url": "https://github.com/migelizaga-rgb/openclaw-google-cli-tools/issues"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "ai-agents",
+    "llm-tools",
+    "google-workspace",
+    "gmail",
+    "google-calendar"
+  ],
+  "files": [
+    "index.js",
+    "src",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ]
 }
