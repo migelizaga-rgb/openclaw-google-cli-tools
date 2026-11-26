@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-google-cli-tools",
+  "version": "0.1.0",
+  "description": "Compact OpenClaw plugin bridge to the gog Google CLI",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --check index.js && node --check src/bridge.cjs && node --check src/runner.cjs",
+    "test": "node tests/test-google-cli-bridge.cjs && node tests/test-google-cli-timeout.cjs && node tests/test-google-cli-token-estimate.cjs && node tests/test-plugin-execution.js"
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

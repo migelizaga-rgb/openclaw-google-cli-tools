@@ -1,0 +1,21 @@
+{
+  "id": "google-cli",
+  "contracts": {
+    "tools": [
+      "google_cli"
+    ]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean"
+      },
+      "gogPath": {
+        "type": "string",
+        "description": "Optional path to the gog executable. Defaults to gog resolved from PATH."
+      }
+    }
+  }
+}
